@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 
 public class StringCalculatorTest {
 
-    public StringCalculator stringCalculator = new StringCalculator();
+    private StringCalculator stringCalculator = new StringCalculator();
 
     @Test
     public void emptyStringReturnsZero(){
@@ -24,5 +24,9 @@ public class StringCalculatorTest {
         assertEquals(3, stringCalculator.add("1,2"));
     }
 
+    @Test
+    public void twoAndOneReturnsThree(){
+        assertEquals(3, stringCalculator.add("2,1"));
+    }
 
 }
