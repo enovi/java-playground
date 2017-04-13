@@ -1,7 +1,7 @@
-package string.calulator.kata;
+package katas.stringcalculator;
 
 import org.junit.Test;
-import string.calculator.kata.StringCalculator;
+import katas.stringcalculator.StringCalculator;
 
 import static org.junit.Assert.assertEquals;
 
